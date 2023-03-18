@@ -1,0 +1,24 @@
+.header{
+    position: fixed;
+    top: 0%;
+    background-color:burlywood;
+    padding: 10px;
+    width: 100%;
+    color: black;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0%; 
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    color: white;
+}
+
+
+
+/* .dashboard{
+    background-image: url("C:\Users\HP\Desktop\Ang-Project\my-todo-app\src\assets\Images\roots.jpg");
+} */

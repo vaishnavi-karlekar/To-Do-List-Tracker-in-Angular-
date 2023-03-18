@@ -1,0 +1,20 @@
+
+<form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Task Title</mat-label>
+        <input matInput [(ngModel)]="taskTitle" [ngModelOptions]="{standalone: true}">
+      
+      
+    </mat-form-field>
+  
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Description</mat-label>
+      <input matInput [(ngModel)]="description" [ngModelOptions]="{standalone: true}">
+      <!-- <textarea matInput placeholder="Add a details..."></textarea> -->
+    </mat-form-field>
+  </form>
+
+  <mat-dialog-actions align="end">
+    <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+    <button mat-raised-button color="warn" matDialogClose>Cancel</button>
+  </mat-dialog-actions>
